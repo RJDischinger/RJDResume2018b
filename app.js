@@ -5,6 +5,7 @@ if($(window).width() > 769) {
  }
 } 
 
+/*========Show/Hide Skills Details===========*/
 function detailList(listId) {
     var x = document.getElementById(listId);
     if (x.style.display === "none") {
@@ -14,6 +15,7 @@ function detailList(listId) {
     }
 }
 
+/*========Show/Hide Professional Experience=============*/
 const toggleJobs = document.getElementById("toggleJobs");
 const jobDiv = document.querySelector("article");
 toggleJobs.addEventListener("click", () => {
@@ -26,12 +28,9 @@ toggleJobs.addEventListener("click", () => {
     }                         
   });
 
-
-
-/*=====jQuery option ===============
-==================================*/
+/*=====jQuery option ==Show/Hide Education and Training=============*/
 $(document).ready(function(){
-    $("button").click(function(){
+    $(toggleEdTrain).click(function(){
         $("h4").toggle();
     });
 });
