@@ -1,7 +1,7 @@
 /* ==alert only operates based on the size of the window that is opened 
      The alert does NOT reset when the window is resized==*/
 if($(window).width() > 769) {
- function dispAlert(){alert("Welcome to my WebSite")
+ function disp_alert(){alert("Welcome to my WebSite")
  }
 } 
 
