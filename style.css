@@ -36,7 +36,7 @@ Styling for Images
   Base Element Styles
   ==================================== */
 header {
-  background-color: #ecc170;
+  background-image: url("https://images.pexels.com/photos/122458/pexels-photo-122458.jpeg?auto=compress&cs=tinysrgb&h=350");
 }
 
 ul {
@@ -90,11 +90,13 @@ ul {
 
 .job {
   color: dark green;
- 	padding: 1em 1em;
-	margin: auto;	
-  background: lightyellow;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 1em 1em;
+  margin: auto;	
+  background-image: url("https://image.shutterstock.com/image-photo/white-paper-texture-background-260nw-1063243772.jpg");
   border: solid 1px gray;
-	border-radius: 5px;
+  border-radius: 5px;
 }
 
 .container {
